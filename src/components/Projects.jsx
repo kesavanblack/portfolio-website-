@@ -35,8 +35,7 @@ const Projects = () => {
               <h3 className="text-2xl font-semibold mb-4">{project.name}</h3>
               <p className="text-lg mb-4">{project.description}</p>
               <a href={project.url} className="text-blue-500 hover:underline">View Project</a>
-            </div>
-            
+            </div>  
           ))}
         </div>
       </div>
